@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/show_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="登陆" />
+    
+    <TextView
+        android:id="@+id/login_suc_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+  	<TextView
+        android:id="@+id/login_failure_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+ 	 <TextView
+        android:id="@+id/login_cancel_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/input_money"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入金额" />
+
+    <Button
+        android:id="@+id/show_pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="支付" />
+      <TextView
+        android:id="@+id/pay_suc_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+  	<TextView
+        android:id="@+id/pay_failure_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+ 	 <TextView
+        android:id="@+id/pay_cancel_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
